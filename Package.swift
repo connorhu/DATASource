@@ -24,7 +24,7 @@ let package = Package(
         .target(
             name: "DATASource-iOS",
             dependencies: [],
-            path: "Sources"),
+            path: "Source"),
         .testTarget(
             name: "iOSTests",
             dependencies: ["DATASource-iOS"],
